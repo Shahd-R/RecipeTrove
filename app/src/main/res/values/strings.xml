@@ -1,0 +1,7 @@
+<resources>
+<!--    <string name="app_name">Trying again</string>-->
+    <string name="GOOGAPI">AIzaSyA76sNgO5gg52pv1PVzRFqlbVqY6VDRmRY</string>
+    <string name="app_name">Recipe App</string>
+    <string name="recipe_name">Recipe name</string>
+    <string name="arrow_icon">Arrow icon indicating clickable item</string>
+</resources>

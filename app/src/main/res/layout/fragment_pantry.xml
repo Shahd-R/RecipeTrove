@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pantry"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/pantry_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_above="@id/button_layout" />
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/edit_pantry_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Pantry Items"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/proceed_to_recipes_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Recipes"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</RelativeLayout>
